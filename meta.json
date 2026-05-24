@@ -1,0 +1,853 @@
+{
+  "version": "2.0.0",
+  "buildTime": "2026-05-23T15:13:52.639Z",
+  "instTotal": 39039,
+  "commTotal": 197503,
+  "provinces": [
+    "安徽省",
+    "北京市",
+    "重庆市",
+    "福建省",
+    "甘肃省",
+    "广东省",
+    "广西壮族自治区",
+    "贵州省",
+    "海南省",
+    "河北省",
+    "河南省",
+    "黑龙江省",
+    "湖北省",
+    "湖南省",
+    "吉林省",
+    "江苏省",
+    "江西省",
+    "辽宁省",
+    "内蒙古自治区",
+    "宁夏回族自治区",
+    "青海省",
+    "山东省",
+    "山西省",
+    "陕西省",
+    "上海市",
+    "四川省",
+    "天津市",
+    "西藏自治区",
+    "新疆生产建设兵团",
+    "新疆维吾尔自治区",
+    "云南省",
+    "浙江省"
+  ],
+  "instLiteFiles": {
+    "北京市": {
+      "file": "inst_北京市_lite.json",
+      "count": 615,
+      "size": 163690,
+      "gzSize": 17641,
+      "brSize": 13804
+    },
+    "天津市": {
+      "file": "inst_天津市_lite.json",
+      "count": 420,
+      "size": 109876,
+      "gzSize": 11782,
+      "brSize": 9270
+    },
+    "河北省": {
+      "file": "inst_河北省_lite.json",
+      "count": 2094,
+      "size": 592128,
+      "gzSize": 65622,
+      "brSize": 51267
+    },
+    "山西省": {
+      "file": "inst_山西省_lite.json",
+      "count": 778,
+      "size": 189833,
+      "gzSize": 22643,
+      "brSize": 17860
+    },
+    "内蒙古自治区": {
+      "file": "inst_内蒙古自治区_lite.json",
+      "count": 557,
+      "size": 143103,
+      "gzSize": 16818,
+      "brSize": 13303
+    },
+    "辽宁省": {
+      "file": "inst_辽宁省_lite.json",
+      "count": 2175,
+      "size": 535339,
+      "gzSize": 54709,
+      "brSize": 42571
+    },
+    "吉林省": {
+      "file": "inst_吉林省_lite.json",
+      "count": 1489,
+      "size": 399083,
+      "gzSize": 39484,
+      "brSize": 30502
+    },
+    "黑龙江省": {
+      "file": "inst_黑龙江省_lite.json",
+      "count": 1704,
+      "size": 424415,
+      "gzSize": 44773,
+      "brSize": 33480
+    },
+    "上海市": {
+      "file": "inst_上海市_lite.json",
+      "count": 686,
+      "size": 198804,
+      "gzSize": 18109,
+      "brSize": 14196
+    },
+    "江苏省": {
+      "file": "inst_江苏省_lite.json",
+      "count": 2246,
+      "size": 627879,
+      "gzSize": 64617,
+      "brSize": 49354
+    },
+    "浙江省": {
+      "file": "inst_浙江省_lite.json",
+      "count": 1539,
+      "size": 397222,
+      "gzSize": 46113,
+      "brSize": 35461
+    },
+    "安徽省": {
+      "file": "inst_安徽省_lite.json",
+      "count": 2390,
+      "size": 623873,
+      "gzSize": 65957,
+      "brSize": 51065
+    },
+    "福建省": {
+      "file": "inst_福建省_lite.json",
+      "count": 845,
+      "size": 206175,
+      "gzSize": 23374,
+      "brSize": 18172
+    },
+    "江西省": {
+      "file": "inst_江西省_lite.json",
+      "count": 1487,
+      "size": 382431,
+      "gzSize": 40825,
+      "brSize": 31302
+    },
+    "山东省": {
+      "file": "inst_山东省_lite.json",
+      "count": 2466,
+      "size": 561438,
+      "gzSize": 46369,
+      "brSize": 37222
+    },
+    "河南省": {
+      "file": "inst_河南省_lite.json",
+      "count": 3434,
+      "size": 846262,
+      "gzSize": 89311,
+      "brSize": 68061
+    },
+    "湖北省": {
+      "file": "inst_湖北省_lite.json",
+      "count": 1876,
+      "size": 480048,
+      "gzSize": 47999,
+      "brSize": 37364
+    },
+    "湖南省": {
+      "file": "inst_湖南省_lite.json",
+      "count": 1713,
+      "size": 447198,
+      "gzSize": 48355,
+      "brSize": 37098
+    },
+    "广东省": {
+      "file": "inst_广东省_lite.json",
+      "count": 1708,
+      "size": 443015,
+      "gzSize": 45076,
+      "brSize": 35000
+    },
+    "广西壮族自治区": {
+      "file": "inst_广西壮族自治区_lite.json",
+      "count": 835,
+      "size": 208584,
+      "gzSize": 22143,
+      "brSize": 17208
+    },
+    "海南省": {
+      "file": "inst_海南省_lite.json",
+      "count": 133,
+      "size": 36443,
+      "gzSize": 4674,
+      "brSize": 3616
+    },
+    "重庆市": {
+      "file": "inst_重庆市_lite.json",
+      "count": 1569,
+      "size": 372953,
+      "gzSize": 41232,
+      "brSize": 31757
+    },
+    "四川省": {
+      "file": "inst_四川省_lite.json",
+      "count": 2595,
+      "size": 663821,
+      "gzSize": 72515,
+      "brSize": 55663
+    },
+    "贵州省": {
+      "file": "inst_贵州省_lite.json",
+      "count": 760,
+      "size": 202869,
+      "gzSize": 21368,
+      "brSize": 16709
+    },
+    "云南省": {
+      "file": "inst_云南省_lite.json",
+      "count": 740,
+      "size": 200640,
+      "gzSize": 22396,
+      "brSize": 17775
+    },
+    "西藏自治区": {
+      "file": "inst_西藏自治区_lite.json",
+      "count": 47,
+      "size": 14104,
+      "gzSize": 1906,
+      "brSize": 1538
+    },
+    "陕西省": {
+      "file": "inst_陕西省_lite.json",
+      "count": 902,
+      "size": 228531,
+      "gzSize": 24696,
+      "brSize": 19501
+    },
+    "甘肃省": {
+      "file": "inst_甘肃省_lite.json",
+      "count": 337,
+      "size": 87941,
+      "gzSize": 10591,
+      "brSize": 8282
+    },
+    "青海省": {
+      "file": "inst_青海省_lite.json",
+      "count": 94,
+      "size": 27001,
+      "gzSize": 3505,
+      "brSize": 2827
+    },
+    "宁夏回族自治区": {
+      "file": "inst_宁夏回族自治区_lite.json",
+      "count": 90,
+      "size": 25114,
+      "gzSize": 3171,
+      "brSize": 2545
+    },
+    "新疆维吾尔自治区": {
+      "file": "inst_新疆维吾尔自治区_lite.json",
+      "count": 601,
+      "size": 185491,
+      "gzSize": 17376,
+      "brSize": 13558
+    },
+    "新疆生产建设兵团": {
+      "file": "inst_新疆生产建设兵团_lite.json",
+      "count": 114,
+      "size": 34743,
+      "gzSize": 4085,
+      "brSize": 3290
+    }
+  },
+  "instDetailFiles": {
+    "北京市": {
+      "file": "inst_北京市_detail.json",
+      "count": 615,
+      "size": 734387,
+      "gzSize": 171939,
+      "brSize": 124972
+    },
+    "天津市": {
+      "file": "inst_天津市_detail.json",
+      "count": 420,
+      "size": 642538,
+      "gzSize": 190452,
+      "brSize": 137703
+    },
+    "河北省": {
+      "file": "inst_河北省_detail.json",
+      "count": 2094,
+      "size": 3018616,
+      "gzSize": 887603,
+      "brSize": 563879
+    },
+    "山西省": {
+      "file": "inst_山西省_detail.json",
+      "count": 778,
+      "size": 916668,
+      "gzSize": 260188,
+      "brSize": 184972
+    },
+    "内蒙古自治区": {
+      "file": "inst_内蒙古自治区_detail.json",
+      "count": 557,
+      "size": 751539,
+      "gzSize": 230012,
+      "brSize": 166155
+    },
+    "辽宁省": {
+      "file": "inst_辽宁省_detail.json",
+      "count": 2175,
+      "size": 579533,
+      "gzSize": 59108,
+      "brSize": 46793
+    },
+    "吉林省": {
+      "file": "inst_吉林省_detail.json",
+      "count": 1489,
+      "size": 1321946,
+      "gzSize": 336696,
+      "brSize": 231963
+    },
+    "黑龙江省": {
+      "file": "inst_黑龙江省_detail.json",
+      "count": 1704,
+      "size": 2259034,
+      "gzSize": 611034,
+      "brSize": 402069
+    },
+    "上海市": {
+      "file": "inst_上海市_detail.json",
+      "count": 686,
+      "size": 974300,
+      "gzSize": 249556,
+      "brSize": 177421
+    },
+    "江苏省": {
+      "file": "inst_江苏省_detail.json",
+      "count": 2246,
+      "size": 1810936,
+      "gzSize": 484550,
+      "brSize": 338488
+    },
+    "浙江省": {
+      "file": "inst_浙江省_detail.json",
+      "count": 1539,
+      "size": 1494487,
+      "gzSize": 355321,
+      "brSize": 251179
+    },
+    "安徽省": {
+      "file": "inst_安徽省_detail.json",
+      "count": 2390,
+      "size": 3288573,
+      "gzSize": 889511,
+      "brSize": 575080
+    },
+    "福建省": {
+      "file": "inst_福建省_detail.json",
+      "count": 845,
+      "size": 260165,
+      "gzSize": 34058,
+      "brSize": 28112
+    },
+    "江西省": {
+      "file": "inst_江西省_detail.json",
+      "count": 1487,
+      "size": 2200455,
+      "gzSize": 628376,
+      "brSize": 421010
+    },
+    "山东省": {
+      "file": "inst_山东省_detail.json",
+      "count": 2466,
+      "size": 3415145,
+      "gzSize": 900224,
+      "brSize": 589988
+    },
+    "河南省": {
+      "file": "inst_河南省_detail.json",
+      "count": 3434,
+      "size": 3814814,
+      "gzSize": 973734,
+      "brSize": 618299
+    },
+    "湖北省": {
+      "file": "inst_湖北省_detail.json",
+      "count": 1876,
+      "size": 573841,
+      "gzSize": 77928,
+      "brSize": 59719
+    },
+    "湖南省": {
+      "file": "inst_湖南省_detail.json",
+      "count": 1713,
+      "size": 2326212,
+      "gzSize": 631544,
+      "brSize": 424135
+    },
+    "广东省": {
+      "file": "inst_广东省_detail.json",
+      "count": 1708,
+      "size": 1534339,
+      "gzSize": 392252,
+      "brSize": 276843
+    },
+    "广西壮族自治区": {
+      "file": "inst_广西壮族自治区_detail.json",
+      "count": 835,
+      "size": 276906,
+      "gzSize": 47434,
+      "brSize": 37599
+    },
+    "海南省": {
+      "file": "inst_海南省_detail.json",
+      "count": 133,
+      "size": 196490,
+      "gzSize": 49173,
+      "brSize": 39489
+    },
+    "重庆市": {
+      "file": "inst_重庆市_detail.json",
+      "count": 1569,
+      "size": 2010826,
+      "gzSize": 562328,
+      "brSize": 366632
+    },
+    "四川省": {
+      "file": "inst_四川省_detail.json",
+      "count": 2595,
+      "size": 3891952,
+      "gzSize": 1103151,
+      "brSize": 713322
+    },
+    "贵州省": {
+      "file": "inst_贵州省_detail.json",
+      "count": 760,
+      "size": 852374,
+      "gzSize": 225729,
+      "brSize": 162820
+    },
+    "云南省": {
+      "file": "inst_云南省_detail.json",
+      "count": 740,
+      "size": 710518,
+      "gzSize": 162794,
+      "brSize": 120512
+    },
+    "西藏自治区": {
+      "file": "inst_西藏自治区_detail.json",
+      "count": 47,
+      "size": 86784,
+      "gzSize": 28303,
+      "brSize": 23698
+    },
+    "陕西省": {
+      "file": "inst_陕西省_detail.json",
+      "count": 902,
+      "size": 1101494,
+      "gzSize": 307428,
+      "brSize": 218272
+    },
+    "甘肃省": {
+      "file": "inst_甘肃省_detail.json",
+      "count": 337,
+      "size": 589777,
+      "gzSize": 170833,
+      "brSize": 126883
+    },
+    "青海省": {
+      "file": "inst_青海省_detail.json",
+      "count": 94,
+      "size": 171183,
+      "gzSize": 53661,
+      "brSize": 43564
+    },
+    "宁夏回族自治区": {
+      "file": "inst_宁夏回族自治区_detail.json",
+      "count": 90,
+      "size": 172676,
+      "gzSize": 53144,
+      "brSize": 43219
+    },
+    "新疆维吾尔自治区": {
+      "file": "inst_新疆维吾尔自治区_detail.json",
+      "count": 601,
+      "size": 1004236,
+      "gzSize": 231848,
+      "brSize": 166883
+    },
+    "新疆生产建设兵团": {
+      "file": "inst_新疆生产建设兵团_detail.json",
+      "count": 114,
+      "size": 208551,
+      "gzSize": 66934,
+      "brSize": 53344
+    }
+  },
+  "commLiteFiles": {
+    "北京市": {
+      "file": "comm_北京市_lite.json",
+      "count": 1530,
+      "size": 343331,
+      "gzSize": 30312,
+      "brSize": 23913
+    },
+    "天津市": {
+      "file": "comm_天津市_lite.json",
+      "count": 1339,
+      "size": 308052,
+      "gzSize": 22315,
+      "brSize": 17290
+    },
+    "河北省": {
+      "file": "comm_河北省_lite.json",
+      "count": 3301,
+      "size": 744156,
+      "gzSize": 40918,
+      "brSize": 31772
+    },
+    "江苏省": {
+      "file": "comm_江苏省_lite.json",
+      "count": 63,
+      "size": 15961,
+      "gzSize": 1890,
+      "brSize": 1519
+    },
+    "福建省": {
+      "file": "comm_福建省_lite.json",
+      "count": 6913,
+      "size": 1532131,
+      "gzSize": 121284,
+      "brSize": 88620
+    },
+    "江西省": {
+      "file": "comm_江西省_lite.json",
+      "count": 24372,
+      "size": 5663991,
+      "gzSize": 402019,
+      "brSize": 282655
+    },
+    "山东省": {
+      "file": "comm_山东省_lite.json",
+      "count": 23737,
+      "size": 5406910,
+      "gzSize": 365548,
+      "brSize": 273971
+    },
+    "河南省": {
+      "file": "comm_河南省_lite.json",
+      "count": 9376,
+      "size": 2150115,
+      "gzSize": 166960,
+      "brSize": 124439
+    },
+    "湖北省": {
+      "file": "comm_湖北省_lite.json",
+      "count": 22402,
+      "size": 5400479,
+      "gzSize": 378878,
+      "brSize": 281414
+    },
+    "湖南省": {
+      "file": "comm_湖南省_lite.json",
+      "count": 25602,
+      "size": 6127233,
+      "gzSize": 462219,
+      "brSize": 338326
+    },
+    "广东省": {
+      "file": "comm_广东省_lite.json",
+      "count": 20134,
+      "size": 4838261,
+      "gzSize": 329810,
+      "brSize": 242172
+    },
+    "广西壮族自治区": {
+      "file": "comm_广西壮族自治区_lite.json",
+      "count": 8786,
+      "size": 2213872,
+      "gzSize": 160487,
+      "brSize": 117404
+    },
+    "海南省": {
+      "file": "comm_海南省_lite.json",
+      "count": 320,
+      "size": 75182,
+      "gzSize": 6560,
+      "brSize": 5077
+    },
+    "重庆市": {
+      "file": "comm_重庆市_lite.json",
+      "count": 4395,
+      "size": 1019170,
+      "gzSize": 66716,
+      "brSize": 52103
+    },
+    "四川省": {
+      "file": "comm_四川省_lite.json",
+      "count": 9070,
+      "size": 2149972,
+      "gzSize": 172012,
+      "brSize": 128397
+    },
+    "贵州省": {
+      "file": "comm_贵州省_lite.json",
+      "count": 1378,
+      "size": 332710,
+      "gzSize": 26123,
+      "brSize": 20262
+    },
+    "云南省": {
+      "file": "comm_云南省_lite.json",
+      "count": 8563,
+      "size": 2200726,
+      "gzSize": 151075,
+      "brSize": 117414
+    },
+    "西藏自治区": {
+      "file": "comm_西藏自治区_lite.json",
+      "count": 25,
+      "size": 5567,
+      "gzSize": 802,
+      "brSize": 689
+    },
+    "陕西省": {
+      "file": "comm_陕西省_lite.json",
+      "count": 15506,
+      "size": 3590644,
+      "gzSize": 276200,
+      "brSize": 203043
+    },
+    "甘肃省": {
+      "file": "comm_甘肃省_lite.json",
+      "count": 7568,
+      "size": 1793296,
+      "gzSize": 137478,
+      "brSize": 101840
+    },
+    "青海省": {
+      "file": "comm_青海省_lite.json",
+      "count": 628,
+      "size": 150858,
+      "gzSize": 12524,
+      "brSize": 9443
+    },
+    "宁夏回族自治区": {
+      "file": "comm_宁夏回族自治区_lite.json",
+      "count": 1481,
+      "size": 379564,
+      "gzSize": 26489,
+      "brSize": 20363
+    },
+    "新疆维吾尔自治区": {
+      "file": "comm_新疆维吾尔自治区_lite.json",
+      "count": 976,
+      "size": 265487,
+      "gzSize": 16848,
+      "brSize": 13144
+    },
+    "新疆生产建设兵团": {
+      "file": "comm_新疆生产建设兵团_lite.json",
+      "count": 38,
+      "size": 9687,
+      "gzSize": 975,
+      "brSize": 816
+    }
+  },
+  "commDetailFiles": {
+    "北京市": {
+      "file": "comm_北京市_detail.json",
+      "count": 1530,
+      "size": 315636,
+      "gzSize": 31705,
+      "brSize": 26613
+    },
+    "天津市": {
+      "file": "comm_天津市_detail.json",
+      "count": 1339,
+      "size": 256679,
+      "gzSize": 21006,
+      "brSize": 17502
+    },
+    "河北省": {
+      "file": "comm_河北省_detail.json",
+      "count": 3301,
+      "size": 594462,
+      "gzSize": 38618,
+      "brSize": 30588
+    },
+    "江苏省": {
+      "file": "comm_江苏省_detail.json",
+      "count": 63,
+      "size": 12632,
+      "gzSize": 1782,
+      "brSize": 1536
+    },
+    "福建省": {
+      "file": "comm_福建省_detail.json",
+      "count": 6913,
+      "size": 1265286,
+      "gzSize": 97001,
+      "brSize": 76422
+    },
+    "江西省": {
+      "file": "comm_江西省_detail.json",
+      "count": 24372,
+      "size": 4402771,
+      "gzSize": 263541,
+      "brSize": 192241
+    },
+    "山东省": {
+      "file": "comm_山东省_detail.json",
+      "count": 23737,
+      "size": 4589953,
+      "gzSize": 297453,
+      "brSize": 228378
+    },
+    "河南省": {
+      "file": "comm_河南省_detail.json",
+      "count": 9376,
+      "size": 1631208,
+      "gzSize": 122497,
+      "brSize": 94606
+    },
+    "湖北省": {
+      "file": "comm_湖北省_detail.json",
+      "count": 22402,
+      "size": 4012230,
+      "gzSize": 271418,
+      "brSize": 211735
+    },
+    "湖南省": {
+      "file": "comm_湖南省_detail.json",
+      "count": 25602,
+      "size": 4647651,
+      "gzSize": 291913,
+      "brSize": 221281
+    },
+    "广东省": {
+      "file": "comm_广东省_detail.json",
+      "count": 20134,
+      "size": 3893989,
+      "gzSize": 285377,
+      "brSize": 220745
+    },
+    "广西壮族自治区": {
+      "file": "comm_广西壮族自治区_detail.json",
+      "count": 8786,
+      "size": 1814603,
+      "gzSize": 101784,
+      "brSize": 78820
+    },
+    "海南省": {
+      "file": "comm_海南省_detail.json",
+      "count": 320,
+      "size": 57534,
+      "gzSize": 5234,
+      "brSize": 4350
+    },
+    "重庆市": {
+      "file": "comm_重庆市_detail.json",
+      "count": 4395,
+      "size": 985504,
+      "gzSize": 85901,
+      "brSize": 69770
+    },
+    "四川省": {
+      "file": "comm_四川省_detail.json",
+      "count": 9070,
+      "size": 1649598,
+      "gzSize": 131210,
+      "brSize": 103285
+    },
+    "贵州省": {
+      "file": "comm_贵州省_detail.json",
+      "count": 1378,
+      "size": 255610,
+      "gzSize": 21450,
+      "brSize": 17341
+    },
+    "云南省": {
+      "file": "comm_云南省_detail.json",
+      "count": 8563,
+      "size": 1781574,
+      "gzSize": 113851,
+      "brSize": 90863
+    },
+    "西藏自治区": {
+      "file": "comm_西藏自治区_detail.json",
+      "count": 25,
+      "size": 4054,
+      "gzSize": 721,
+      "brSize": 624
+    },
+    "陕西省": {
+      "file": "comm_陕西省_detail.json",
+      "count": 15506,
+      "size": 2814287,
+      "gzSize": 187554,
+      "brSize": 145848
+    },
+    "甘肃省": {
+      "file": "comm_甘肃省_detail.json",
+      "count": 7568,
+      "size": 1355785,
+      "gzSize": 93260,
+      "brSize": 73161
+    },
+    "青海省": {
+      "file": "comm_青海省_detail.json",
+      "count": 628,
+      "size": 117359,
+      "gzSize": 9369,
+      "brSize": 7766
+    },
+    "宁夏回族自治区": {
+      "file": "comm_宁夏回族自治区_detail.json",
+      "count": 1481,
+      "size": 272996,
+      "gzSize": 20560,
+      "brSize": 16761
+    },
+    "新疆维吾尔自治区": {
+      "file": "comm_新疆维吾尔自治区_detail.json",
+      "count": 976,
+      "size": 176834,
+      "gzSize": 15876,
+      "brSize": 13067
+    },
+    "新疆生产建设兵团": {
+      "file": "comm_新疆生产建设兵团_detail.json",
+      "count": 38,
+      "size": 7324,
+      "gzSize": 1206,
+      "brSize": 1022
+    }
+  },
+  "fieldMap": {
+    "i": "index",
+    "ds": "dataSource(I=机构/C=社区)",
+    "p": "province",
+    "c": "city",
+    "d": "adminDistrict",
+    "n": "name",
+    "a": "address",
+    "bc": "bedsCount",
+    "tl": "tagList",
+    "ac": "adminCode",
+    "lat": "lat",
+    "lng": "lng",
+    "desc": "description",
+    "bi": "bedsInfo",
+    "sv": "services",
+    "da": "detailAddress",
+    "sh": "serviceHours",
+    "ss": "serviceScope",
+    "t": "tags"
+  }
+}
